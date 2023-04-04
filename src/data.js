@@ -4,11 +4,11 @@ import LogoImg from '../src/assets/img/header/logo.png';
 // import HeroImg from '../src/assets/img/hero/image.svg';
 import HeroImg from '../src/assets/img/hero/image.png';
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
-import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
-import GoogleImg from '../src/assets/img/overview/brands/google.svg';
-import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
-import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
-import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
+// import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
+// import GoogleImg from '../src/assets/img/overview/brands/google.svg';
+// import CocaColaImg from '../src/assets/img/overview/brands/coca-cola.svg';
+// import LinkedInImg from '../src/assets/img/overview/brands/linkedin.svg';
+// import SamsungImg from '../src/assets/img/overview/brands/samsung.svg';
 // import Feature1Img from '../src/assets/img/features/feature1-img.svg';
 import Feature1Img from '../src/assets/img/features/feature1.jpg';
 import Feature2Img from '../src/assets/img/features/startupindia.webp';
@@ -184,7 +184,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: 'We have millions of best wishers',
+  title: 'We have many best wishers',
   clients: [
     {
       message:

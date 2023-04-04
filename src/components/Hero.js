@@ -2,7 +2,7 @@ import React from 'react';
 // import data
 import { hero } from '../data';
 // import icons
-import { HiOutlineChevronDown } from 'react-icons/hi';
+// import { HiOutlineChevronDown } from 'react-icons/hi';
 
 const Hero = () => {
   // destructure hero data

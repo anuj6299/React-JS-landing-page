@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import data
 import { product } from '../data';
 // import images
-import ArrowImg from '../assets/img/product/cards/arrow.svg';
+// import ArrowImg from '../assets/img/product/cards/arrow.svg';
 
 const Cards = () => {
   // index state
@@ -15,7 +15,7 @@ const Cards = () => {
       <div className='flex flex-col gap-y-[30px] lg:flex-row lg:gap-x-[30px]'>
         {cards.map((card, cardIndex) => {
           // destructure card
-          const { icon, title, subtitle, delay } = card;
+          const { icon, title, subtitle} = card;
           return (
             <div
               key={cardIndex}
