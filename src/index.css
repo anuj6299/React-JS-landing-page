@@ -21,6 +21,9 @@
   .h2 {
     @apply text-5xl lg:text-7xl font-bold;
   }
+  .h3 {
+    @apply text-3xl lg:text-5xl font-bold;
+  }
   .pretitle {
     @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
   }
@@ -45,16 +48,25 @@
   .btn-sm {
     @apply h-[48px] px-[16px] text-lg font-normal;
   }
-  .btn-accent {
-    @apply text-white bg-accent hover:bg-accentHover;
+  .btn-blue {
+    @apply bg-blue-500 text-white;
+  }
+  .btn-blue:hover {
+    @apply bg-blue-700;
+  }
+  .btn-sky {
+    @apply bg-sky-500 text-white;
+  }
+  .btn-sky:hover {
+    @apply bg-sky-700;
   }
   .btn-white {
-    @apply text-accent bg-white hover:bg-white/90;
+    @apply text-sky-500 bg-white hover:bg-white/90;
   }
   .btn-outline {
-    @apply bg-transparent text-accent border border-accent hover:bg-accent hover:text-white;
+    @apply bg-transparent text-sky-500 border border-sky-500 hover:bg-sky-500 hover:text-white;
   }
   .btn-link {
-    @apply text-accent text-xl lg:text-2xl;
+    @apply text-sky-500 text-xl lg:text-2xl;
   }
 }

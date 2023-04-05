@@ -25,7 +25,7 @@ const Footer = () => {
                 return (
                   <li key={index}>
                     <a
-                      className='font-medium hover:text-accent transition'
+                      className='font-medium hover:text-sky-500 transition'
                       href={href}
                     >
                       {name}
@@ -45,7 +45,7 @@ const Footer = () => {
                 return (
                   <li key={index}>
                     <a
-                      className='font-medium hover:text-accent transition'
+                      className='font-medium hover:text-sky-500 transition'
                       href={href}
                     >
                       {name}
@@ -71,7 +71,7 @@ const Footer = () => {
                   type='text'
                   placeholder={form.placeholder}
                 />
-                <button className='btn btn-sm bg-accent hover:bg-accentHover w-[102px] text-white'>
+                <button className='btn btn-sm btn-sky w-[102px] text-white'>
                   {form.btnText}
                 </button>
               </div>

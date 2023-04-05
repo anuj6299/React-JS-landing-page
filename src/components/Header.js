@@ -50,9 +50,9 @@ const Header = () => {
         {/* mobile nav trigger btn - hidden on desktop */}
         <button className='lg:hidden' onClick={() => setMobileNav(!mobileNav)}>
           {mobileNav ? (
-            <HiOutlineX className='text-3xl text-accent' />
+            <HiOutlineX className='text-3xl text-sky' />
           ) : (
-            <HiMenuAlt4 className='text-3xl text-accent' />
+            <HiMenuAlt4 className='text-3xl text-sky' />
           )}
         </button>
         {/* mobile nav - hidden on desktop */}

@@ -1,12 +1,13 @@
 import React from 'react';
 // import data
 import { features } from '../data';
+import { HiArrowRight } from 'react-icons/hi';
 
 const Feature2 = () => {
   // destructure features
   const { feature2 } = features;
   // destructure feature2
-  const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature2;
+  const { pretitle, title, subtitle, btnLink, image } = feature2;
   return (
     <section className='section'>
       <div className='container mx-auto'>
@@ -29,7 +30,7 @@ const Feature2 = () => {
             <h2 className='title'>{title}</h2>
             <p className='lead'>{subtitle}</p>
             <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
-              {btnLink} <img src={btnIcon} alt='' />
+              {btnLink} <HiArrowRight />
             </button>
           </div>
         </div>

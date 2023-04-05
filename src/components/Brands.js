@@ -6,7 +6,7 @@ const Brands = () => {
   // destructure overview
   const { brands } = overview;
   return (
-    <section className='py-9'>
+    <section className='section'>
         {/* <h2 className='title'></h2> */}
       <div className='container mx-auto'>
         <h2

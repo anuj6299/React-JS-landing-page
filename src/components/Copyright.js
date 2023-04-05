@@ -14,10 +14,10 @@ const Copyright = () => {
     >
       {/* links */}
       <div className='flex gap-x-6'>
-        <a className='hover:text-accent transition' href={link1.href}>
+        <a className='hover:text-sky-500 transition' href={link1.href}>
           {link1.name}
         </a>
-        <a className='hover:text-accent transition' href={link2.href}>
+        <a className='hover:text-sky-500 transition' href={link2.href}>
           {link2.name}
         </a>
       </div>
