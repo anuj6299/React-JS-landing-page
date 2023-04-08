@@ -37,6 +37,12 @@ import Paytm from '../src/assets/img/overview/brands/paytm.svg';
 import Shiprocket from '../src/assets/img/overview/brands/shiprocket.svg';
 import Delhivery from '../src/assets/img/overview/brands/delhivery.svg';
 import Icici from '../src/assets/img/overview/brands/icici.png';
+import Startinup from '../src/assets/img/overview/brands/aboutnogozo1.png';
+import Dpiit from '../src/assets/img/overview/brands/aboutnogozo2.png';
+import Startupindia from '../src/assets/img/overview/brands/aboutnogozo3.png';
+import Sharktank from '../src/assets/img/overview/brands/aboutnogozo4.png';
+import Dainik from '../src/assets/img/overview/brands/dainik.png';
+import Ecelliitbhu from '../src/assets/img/overview/brands/ecell.webp';
 
 
 
@@ -63,7 +69,35 @@ export const hero = {
 
 export const overview = {
   productImg: OverviewProductImg,
+  brandstext: "Supported & Trusted By",
   brands: [
+    {
+      image: Startupindia,
+      delay: 100,
+    },
+    {
+      image: Dpiit,
+      delay: 200,
+    },
+    {
+      image: Startinup,
+      delay: 300,
+    },
+    {
+      image: Ecelliitbhu,
+      delay: 400,
+    },
+    {
+      image: Dainik,
+      delay: 500,
+    },
+    {
+      image: Sharktank,
+      delay: 600,
+    }
+  ],
+  patnerstext: "Our Partners",
+  partners: [
     {
       image: Paytm,
       delay: 300,

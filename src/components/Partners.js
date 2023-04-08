@@ -2,9 +2,9 @@ import React from 'react';
 // import data
 import { overview } from '../data';
 
-const Brands = () => {
+const Partners = () => {
   // destructure overview
-  const { brands } = overview;
+  const { partners } = overview;
   return (
     <section className='section'>
         {/* <h2 className='title'></h2> */}
@@ -14,19 +14,19 @@ const Brands = () => {
           data-aos='fade-up'
           data-aos-delay='200'
         >
-            Supported & Trusted By
+            Our Partners
           </h2>
         </div>
 
       <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-1'>
         {/* brands */}
-        {brands.map((item, index) => {
+        {partners.map((item, index) => {
           // destructure item
           const { image, delay } = item;
           return (
             <div key={index} data-aos='fade-up' data-aos-delay={delay}>
               {/* brand img */}
-              <img src={image} style={{width: 130}} alt='' />
+              <img src={image} style={{width: 200}} alt='' />
             </div>
           );
         })}
@@ -35,4 +35,4 @@ const Brands = () => {
   );
 };
 
-export default Brands;
+export default Partners;

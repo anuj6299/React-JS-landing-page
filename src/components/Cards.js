@@ -27,7 +27,7 @@ const Cards = () => {
                 onClick={() => setIndex(cardIndex)}
                 className={`${
                   index === cardIndex && 'bg-white shadow-2xl'
-                }  w-[350px] h-[350px] flex flex-col justify-center items-center mx-auto p-[65px] text-center rounded-[12px] cursor-pointer transition-all`}
+                }  w-[300px] h-[300px] bg-white shadow-2xl flex flex-col justify-center items-center mx-auto p-[45px] text-center rounded-[12px] cursor-pointer transition-all`}
               >
                 {/* card icon */}
                 <div className='mb-6'>

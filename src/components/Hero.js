@@ -9,8 +9,8 @@ const Hero = () => {
   // destructure hero data
   const { title, subtitle, btnText, image } = hero;
   return (
-    <section className='min-h-[700px]'>
-      <div className='container mx-auto min-h-[800px] flex justify-center items-center'>
+    <section className='min-h-[850px]'>
+      <div className='container mx-auto min-h-[850px] flex justify-center items-center'>
         <div className='flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left'>
           {/* text */}
           <div className='flex-1'>
@@ -34,10 +34,10 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='500'
             >
-              <button className='btn btn-md lg:btn-lg btn-sky flex justify-center items-center lg:gap-x-4'>
+              <button className='btn btn-md lg:btn-lg btn-sky flex justify-center items-center lg:gap-x-2'>
                 <HiOutlineDownload/> {btnText}
               </button>
-              <button className='btn btn-md lg:btn-lg btn-blue flex justify-center items-center lg:gap-x-4'>
+              <button className='btn btn-md lg:btn-lg btn-blue flex justify-center items-center lg:gap-x-2'>
                 Continue on web <HiArrowRight/>
               </button>
             </div>

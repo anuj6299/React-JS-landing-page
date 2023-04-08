@@ -40,10 +40,10 @@
     @apply rounded-lg transition flex justify-center items-center;
   }
   .btn-lg {
-    @apply h-[75px] px-6 text-2xl font-normal;
+    @apply h-[75px] px-2 text-xl font-normal;
   }
   .btn-md {
-    @apply h-[60px] px-[16px] text-lg font-normal;
+    @apply h-[60px] px-[8px] text-lg font-normal;
   }
   .btn-sm {
     @apply h-[48px] px-[16px] text-lg font-normal;
