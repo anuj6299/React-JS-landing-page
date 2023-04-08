@@ -1,7 +1,7 @@
 import React from 'react';
 // import data
 import { features } from '../data';
-import { HiArrowRight } from 'react-icons/hi';
+// import { HiArrowRight } from 'react-icons/hi';
 
 const Feature3 = () => {
   // destructure features
