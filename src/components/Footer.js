@@ -1,12 +1,12 @@
 import React from 'react';
 // import data
-import { footer } from '../data';
+// import { footer } from '../data';
 // import components
 import Copyright from '../components/Copyright';
 
 const Footer = () => {
   // destructure footer data
-  const { logo, links, newsletter, form } = footer;
+  // const { logo, links, newsletter, form } = footer;
   return (
     <footer className='pb-[60px]'>
       <div className='container mx-auto'>
