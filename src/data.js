@@ -42,14 +42,13 @@ import Icici from '../src/assets/img/overview/brands/icici.png';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Request a demo',
+  btnText: 'Download App',
 };
 
 export const nav = [
-  { name: 'Features', href: '/' },
-  { name: 'About us', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Feedback', href: '/' },
+  { name: 'Blogs', href: 'https://nogozo.com/blog/' },
+  { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
+  { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
 ];
 
 export const hero = {
@@ -245,13 +244,13 @@ export const footer = {
     { name: 'Careers', href: '/' },
     { name: 'Pricing', href: '/' },
     { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
+    { name: 'Blog', href: 'https://nogozo.com/blog/' },
+    { name: 'Terms of use', href: 'https://nogozo.com/tnc/' },
   ],
   legal: [
-    { name: 'Terms of use', href: '/' },
-    { name: 'Terms of conditions', href: '/' },
-    { name: 'Privacy policy', href: '/' },
-    { name: 'Cookie policy', href: '/' },
+    { name: 'Terms of use', href: 'https://nogozo.com/tnc/' },
+    { name: 'Terms of conditions', href: 'https://nogozo.com/tnc/' },
+    { name: 'Privacy policy', href: 'https://nogozo.com/tnc/' }
   ],
   newsletter: {
     title: 'Newsletter',
