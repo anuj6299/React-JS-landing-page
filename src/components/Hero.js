@@ -9,8 +9,8 @@ const Hero = () => {
   // destructure hero data
   const { title, subtitle, btnText, image } = hero;
   return (
-    <section className='min-h-[850px]'>
-      <div className='container mx-auto min-h-[850px] flex justify-center items-center'>
+    <section className='min-h-[700px]'>
+      <div className='container mx-auto min-h-[800px] flex justify-center items-center'>
         <div className='flex flex-col lg:gap-x-[30px] gap-y-8 lg:gap-y-0 lg:flex-row items-center justify-center text-center lg:text-left'>
           {/* text */}
           <div className='flex-1'>

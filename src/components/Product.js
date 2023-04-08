@@ -16,15 +16,15 @@ const Product = () => {
             className='section-title'
             data-aos='fade-up'
             data-aos-offset='400'
-            data-aos-delay='300'
+            data-aos-delay='100'
           >
             {title}
           </h2>
           <p
-            className='lead lg:max-w-[350px]'
+            className='lead lg:max-w-[500px]'
             data-aos='fade-up'
             data-aos-offset='400'
-            data-aos-delay='400'
+            data-aos-delay='500'
           >
             {subtitle}
           </p>

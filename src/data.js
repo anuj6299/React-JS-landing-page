@@ -48,12 +48,14 @@ export const header = {
 export const nav = [
   { name: 'Blogs', href: 'https://nogozo.com/blog/' },
   { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
+  { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/?viewAsMember=true' },
+  { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
   { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
 ];
 
 export const hero = {
-  title: "Buy Rent Sell Books",
-  subtitle: "India's online book store for students & readers to buy, rent & sell new as well used books!",
+  title: "Buy Rent Sell Books with NOGOZO!",
+  subtitle: "India's First All in one book store to buy, rent & sell new as well used books with Free Home Delivery",
   btnText: 'Download App',
   compText: '',
   image: HeroImg,
@@ -83,28 +85,28 @@ export const overview = {
 
 export const features = {
   feature1: {
-    pretitle: 'Nogozos journey of Shark Tank India',
-    title: 'Nogozo in Shark Tank',
+    pretitle: "NOGOZO's Sony Shark Tank India Experience",
+    title: 'NOGOZO Founders Pitching at Shark Tank India',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      "Imagine two young student founders taking the Shark Tank India stage by storm, armed with an innovative product that addresses the needs of students all across India. As they confidently presented their vision, the judges were blown away by their game-changing concept. Though they didn't walk away with a deal, these rising stars proved that age is just a number when it comes to building something truly impactful.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Nogozo as StartUp India registered startup',
-    title: 'StartUp India Certified!',
+    pretitle: 'Recognised by Startup India',
+    title: 'Startup India Certified - NOGOZO!',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+      "The Government of India Recognised the NOGOZO Startup under its initiative of StartupIndia in 2021 for it's groundbreaking impact in lives of students & Readers of India.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature2Img,
   },
   feature3: {
-    pretitle: 'Nogozo get support from UP Government',
-    title: 'UP Govt funded Startup',
+    pretitle: 'Backed & Funded by UP Government',
+    title: 'Up Govt Funded Startup',
     subtitle:
-      'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.',
+     "Backed by the Uttar Pradesh Government and recognized as one of the top student startups, NOGOZO is revolutionizing book shopping experience of students with funding from the StartinUp initiative led by the state.",
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
@@ -112,26 +114,26 @@ export const features = {
 };
 
 export const product = {
-  title: 'Indias No 1 Online Book Store',
+  title: 'Trusted by more than 10k+ Students & Readers 📚👩‍🎓',
   subtitle:
-    'Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.',
+    "With 5000+ Book Titles of 300+ Publishers, NOGOZO is India's No. 1 innovative Bookstore, emerging as the best choice among students & readers for all their needs from school textbooks to bestseller novels. Book Chahiye -  to NOGOZO Kar na yaar!",
   cards: [
     {
       icon: CardIconImg1,
       title: 'Buy',
-      subtitle: 'Buy new as well as used books at best price',
+      subtitle: 'Buy New & Used books at guaranteed best price',
       delay: 200,
     },
     {
       icon: CardIconImg2,
       title: 'Rent',
-      subtitle: 'Rent any novel or book starting from ₹10',
+      subtitle: 'Rent your favourite novel, starting @ Rs.10 only',
       delay: 400,
     },
     {
       icon: CardIconImg3,
       title: 'Sell',
-      subtitle: 'Sell your books and get money within 24 hours',
+      subtitle: 'Sell your Old books & Get money within 24 hours',
       delay: 600,
     },
   ],
@@ -183,7 +185,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: 'We have many best wishers',
+  title: "It's Your support & wishes that constantly encourages us to build NOGOZO a best place, Check out some reviews of our lovely users -",
   clients: [
     {
       message:
