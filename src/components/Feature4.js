@@ -3,11 +3,11 @@ import React from 'react';
 import { features } from '../data';
 import { HiArrowRight } from 'react-icons/hi';
 
-const Feature2 = () => {
+const Feature4 = () => {
   // destructure features
-  const { feature2 } = features;
-  // destructure feature2
-  const { pretitle, title, subtitle, image } = feature2;
+  const { feature4 } = features;
+  // destructure feature4
+  const { pretitle, title, subtitle, image } = feature4;
   return (
     <section className='section'>
       <div className='container mx-auto'>
@@ -39,4 +39,4 @@ const Feature2 = () => {
   );
 };
 
-export default Feature2;
+export default Feature4;

@@ -15,6 +15,7 @@ import Feature2Img from '../src/assets/img/features/startupindia.webp';
 // import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/startinup.webp';
 // import Feature3Img from '../src/assets/img/features/feature3-img.svg';
+import Feature4Img from '../src/assets/img/features/index.jpg';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
 import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
@@ -100,7 +101,7 @@ export const overview = {
   partners: [
     {
       image: Paytm,
-      delay: 300,
+      delay: 100,
     },
     {
       image: Icici,
@@ -144,6 +145,14 @@ export const features = {
     btnLink: 'Learn more',
     btnIcon: ArrowRightImg,
     image: Feature3Img,
+  },
+  feature4: {
+    pretitle: 'How NOGOZO became a saviour during Covid-19?',
+    title: "NOGOZO's Platform Saved Covid-19 Spread",
+    subtitle:
+      "During the COVID-19 pandemic, NOGOZO Team generously provided their technology for free to prevent the spread of the virus in their city. As Featured in Dainik Jagran, over 1k+ citizens utilized the NOGOZO app to schedule essential shopping pickups and deliveries, reducing crowding at nearby stores as well as smoothing the fulfillment of their daily needs.",
+    btnIcon: ArrowRightImg,
+    image: Feature4Img,
   },
 };
 
@@ -219,7 +228,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: "It's Your support & wishes that constantly encourages us to build NOGOZO a best place, Check out some reviews of our lovely users -",
+  title: "Check out some reviews of our lovely users -",
   clients: [
     {
       message:
