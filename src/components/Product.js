@@ -8,23 +8,23 @@ const Product = () => {
   // destructure product data
   const { title, subtitle } = product;
   return (
-    <section >
+    <section className='section'>
       <div className='container mx-auto'>
         {/* title & subtitle */}
         <div className='flex flex-col items-center lg:flex-row'>
           <h2
             className='section-title'
             data-aos='fade-up'
-            data-aos-offset='400'
-            data-aos-delay='100'
+            data-aos-offset='250'
+            data-aos-delay='200'
           >
             {title}
           </h2>
           <p
             className='lead lg:max-w-[520px]'
             data-aos='fade-up'
-            data-aos-offset='400'
-            data-aos-delay='500'
+            data-aos-offset='250'
+            data-aos-delay='300'
           >
             {subtitle}
           </p>

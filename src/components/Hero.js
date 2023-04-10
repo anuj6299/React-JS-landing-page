@@ -32,7 +32,7 @@ const Hero = () => {
             <div
               className='flex items-center max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6'
               data-aos='fade-down'
-              data-aos-delay='500'
+              data-aos-delay='300'
             >
               <button className='btn btn-md lg:btn-lg btn-sky flex justify-center items-center lg:gap-x-2'>
                 <HiOutlineDownload/> {btnText}
@@ -43,7 +43,7 @@ const Hero = () => {
             </div>
           </div>
           {/* image */}
-          <div className='flex-1' data-aos='fade-up' data-aos-delay='600'>
+          <div className='flex-1' data-aos='fade-up' data-aos-delay='600' data-aos-offset='0'>
             <img src={image} alt='' />
           </div>
         </div>
