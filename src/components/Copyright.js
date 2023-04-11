@@ -31,7 +31,7 @@ const Copyright = () => {
           return (
             <li key={index}>
               <a href={href}>
-                <img src={icon} alt='' />
+                <img src={icon} alt='' style={{width:40}} />
               </a>
             </li>
           );

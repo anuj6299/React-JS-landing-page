@@ -30,9 +30,12 @@ import AvatarImg4 from '../src/assets/img/testimonial/avatar4.png';
 import AvatarImg5 from '../src/assets/img/testimonial/avatar5.png';
 import CtaImg1 from '../src/assets/img/cta/image1.svg';
 import CtaImg2 from '../src/assets/img/cta/image2.svg';
-import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
-import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
+// import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
+// import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
+import InstaIcon from '../src/assets/img/copyright/insta.svg';
+import WhatsappIcon from '../src/assets/img/copyright/whatsapp.svg';
+import GmailIcon from '../src/assets/img/copyright/gmail.svg';
 import Paytm from '../src/assets/img/overview/brands/paytm.svg';
 // import Icici from '../src/assets/img/overview/brands/ICICI_Bank_Logo.svg';
 import Shiprocket from '../src/assets/img/overview/brands/shiprocket.svg';
@@ -55,7 +58,7 @@ export const header = {
 export const nav = [
   { name: 'Blogs', href: 'https://nogozo.com/blog/' },
   { name: 'Terms & Conditions', href: 'https://nogozo.com/tnc/' },
-  { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/?viewAsMember=true' },
+  { name: 'Careers', href: 'https://www.linkedin.com/company/nogozocare/jobs/' },
   { name: 'Business Queries', href: 'https://api.whatsapp.com/send?text=Hi NOGOZO! I want to become Seller at NOGOZO Buy NOGOZO-Franchise Upgrade my Bookstore&phone=918979497958' },
   { name: 'Contact Us', href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
 ];
@@ -232,7 +235,7 @@ export const testimonials = {
   clients: [
     {
       message:
-        'Smooth platform with variety of books and that too at affordable prices 👍 . I would definitely suggest to give it a try.',
+        'Platform with variety of books and that too at affordable price. I would definitely suggest to give it a try.',
       image: AvatarImg1,
       name: 'Rupali Verma',
       position: '',
@@ -240,7 +243,7 @@ export const testimonials = {
     },
     {
       message:
-        "Fantastic Book App for local one's (Agra) and the outsiders also... Great Delivery Service... Used books quality is superb.. I'm lucky to have connected with ur App❤ #Nogozo",
+        "Fantastic Book App for local one's (Agra) and the outsiders also... Great Delivery Service. Used books quality is superb.",
       image: AvatarImg2,
       name: 'Rubal Singh',
       position: '',
@@ -264,7 +267,7 @@ export const testimonials = {
     },
     {
       message:
-        "Purchased all my exams books from this app. Delivery was quick",
+        "Purchased all my exams books from this app. Delivery was quick. I'm lucky to have connected with ur App ❤",
       image: AvatarImg5,
       name: 'Ayush Anchalia',
       position: '',
@@ -311,16 +314,17 @@ export const footer = {
 export const copyright = {
   link1: {
     name: 'Privacy & Terms',
-    href: '/',
+    href: 'https://nogozo.com/tnc/',
   },
   link2: {
     name: 'Contact us',
-    href: '/',
+    href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958',
   },
-  copyText: 'Copyright @ 2022 nogozo',
+  copyText: 'Copyright @ 2023 nogozo',
   social: [
-    { icon: FacebookIcon, href: '/' },
-    { icon: TwitterIcon, href: '/' },
-    { icon: LinkedinIcon, href: '/' },
+    { icon: WhatsappIcon, href: 'https://api.whatsapp.com/send?text=Hello%20NOGOZO!&phone=918979497958' },
+    { icon: InstaIcon, href: 'https://www.instagram.com/nogozocare/' },
+    { icon: LinkedinIcon, href: 'https://www.linkedin.com/company/nogozocare/' },
+    // { icon: GmailIcon, href: 'mailto:contact@nogozo.com' },
   ],
 };

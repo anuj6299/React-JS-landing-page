@@ -34,12 +34,14 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='300'
             >
+              <a href='https://play.google.com/store/apps/details?id=com.nogozo.customer'>
               <button className='btn btn-md lg:btn-lg btn-sky flex justify-center items-center lg:gap-x-2'>
                 <HiOutlineDownload/> {btnText}
-              </button>
+              </button></a>
+              <a href='https://nogozo.com/books/'>
               <button className='btn btn-md lg:btn-lg btn-blue flex justify-center items-center lg:gap-x-2'>
                 Continue on web <HiArrowRight/>
-              </button>
+              </button></a>
             </div>
           </div>
           {/* image */}

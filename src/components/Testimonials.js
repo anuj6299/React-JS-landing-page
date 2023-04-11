@@ -11,6 +11,7 @@ const Testimonials = () => {
     <section className='section'>
       <div className='container mx-auto'>
         {/* title */}
+        <div className='pretitle'>It's Your support & wishes that constantly encourages us to build NOGOZO a best place</div>
         <h2
           className='title mb-10 lg:mb-20 text-center max-w-[920px] mx-auto'
           data-aos='fade-up'

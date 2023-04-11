@@ -16,7 +16,7 @@ const Feature2 = () => {
           <div
             className='flex-1 order-2 lg:order-1'
             data-aos='fade-right'
-            data-aos-offset='300'
+            data-aos-offset='200'
           >
             <img src={image} alt='' />
           </div>
@@ -24,7 +24,7 @@ const Feature2 = () => {
           <div
             className='flex-1 order-1 lg:order-2'
             data-aos='fade-left'
-            data-aos-offset='400'
+            data-aos-offset='200'
           >
             <div className='pretitle'>{pretitle}</div>
             <h2 className='heading'>{title}</h2>

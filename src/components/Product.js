@@ -21,7 +21,7 @@ const Product = () => {
             {title}
           </h2>
           <p
-            className='lead lg:max-w-[520px]'
+            className='lead lg:max-w-[400px]'
             data-aos='fade-up'
             data-aos-offset='250'
             data-aos-delay='300'

@@ -40,13 +40,14 @@ const Header = () => {
           <Nav />
         </div>
         {/* cta button - initially hidden - show on desktop mode */}
+        <a href='https://play.google.com/store/apps/details?id=com.nogozo.customer'>
         <button
           className='btn btn-sm btn-outline hidden lg:flex'
           data-aos='fade-down'
           data-aos-delay='1400'
         >
           {btnText}
-        </button>
+        </button></a>
         {/* mobile nav trigger btn - hidden on desktop */}
         <button className='lg:hidden' onClick={() => setMobileNav(!mobileNav)}>
           {mobileNav ? (

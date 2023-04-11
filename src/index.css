@@ -31,13 +31,13 @@
     @apply text-lg lg:text-[22px] text-light mb-4 lg:mb-6 uppercase font-normal;
   }
   .lead {
-    @apply text-2xl text-light font-normal mb-6;
+    @apply text-xl text-light font-normal mb-6;
   }
   .link {
     @apply text-lg text-dark;
   }
   .section {
-    @apply pt-4 lg:pt-[100px];
+    @apply py-2 lg:py-[50px];
   }
   .btn {
     @apply rounded-lg transition flex justify-center items-center;
