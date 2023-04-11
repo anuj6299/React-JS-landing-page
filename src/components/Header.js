@@ -6,6 +6,7 @@ import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi';
 // import components
 import MobileNav from '../components/MobileNav';
 import Nav from '../components/Nav';
+import GooglePlayIcon from '../assets/img/copyright/googleplay.svg';
 
 const Header = () => {
   // mobile nav state
@@ -46,7 +47,7 @@ const Header = () => {
           data-aos='fade-down'
           data-aos-delay='1400'
         >
-          {btnText}
+          <img src={GooglePlayIcon} style={{width:20}} className='mr-1' alt='' /> {btnText}
         </button></a>
         {/* mobile nav trigger btn - hidden on desktop */}
         <button className='lg:hidden' onClick={() => setMobileNav(!mobileNav)}>

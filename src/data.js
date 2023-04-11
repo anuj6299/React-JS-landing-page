@@ -52,7 +52,7 @@ import Ecelliitbhu from '../src/assets/img/overview/brands/ecell.webp';
 
 export const header = {
   logo: LogoImg,
-  btnText: 'Download App',
+  btnText: ' Download App',
 };
 
 export const nav = [

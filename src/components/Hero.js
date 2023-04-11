@@ -2,8 +2,9 @@ import React from 'react';
 // import data
 import { hero } from '../data';
 // import icons
-import { HiArrowRight, HiOutlineDownload } from 'react-icons/hi';
+import { HiArrowRight } from 'react-icons/hi';
 // import ArrowRightImg from '../assets/img/features/arrow-right.svg';
+import GooglePlayIcon from '../assets/img/copyright/googleplay.svg';
 
 const Hero = () => {
   // destructure hero data
@@ -36,7 +37,8 @@ const Hero = () => {
             >
               <a href='https://play.google.com/store/apps/details?id=com.nogozo.customer'>
               <button className='btn btn-md lg:btn-lg btn-sky flex justify-center items-center lg:gap-x-2'>
-                <HiOutlineDownload/> {btnText}
+                {/* <HiOutlineDownload/>  */}
+                <img src={GooglePlayIcon} style={{width:20}} alt='' /> {btnText}
               </button></a>
               <a href='https://nogozo.com/books/'>
               <button className='btn btn-md lg:btn-lg btn-blue flex justify-center items-center lg:gap-x-2'>
