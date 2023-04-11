@@ -35,7 +35,7 @@ import CtaImg2 from '../src/assets/img/cta/image2.svg';
 import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
 import InstaIcon from '../src/assets/img/copyright/insta.svg';
 import WhatsappIcon from '../src/assets/img/copyright/whatsapp.svg';
-import GmailIcon from '../src/assets/img/copyright/gmail.svg';
+// import GmailIcon from '../src/assets/img/copyright/gmail.svg';
 import Paytm from '../src/assets/img/overview/brands/paytm.svg';
 // import Icici from '../src/assets/img/overview/brands/ICICI_Bank_Logo.svg';
 import Shiprocket from '../src/assets/img/overview/brands/shiprocket.svg';
