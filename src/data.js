@@ -236,7 +236,7 @@ export const testimonials = {
     {
       message:
         'Platform with variety of books and that too at affordable price. I would definitely suggest to give it a try.',
-      image: AvatarImg1,
+      image: AvatarImg2,
       name: 'Rupali Verma',
       position: '',
       borderColor: '#FF7235',
@@ -244,7 +244,7 @@ export const testimonials = {
     {
       message:
         "Fantastic Book App for local one's (Agra) and the outsiders also... Great Delivery Service. Used books quality is superb.",
-      image: AvatarImg2,
+      image: AvatarImg5,
       name: 'Rubal Singh',
       position: '',
       borderColor: '#FFBE21',
@@ -252,7 +252,7 @@ export const testimonials = {
     {
       message:
         "Loved the Cute UI of the app and amazing discounts on Used books and New books. Gonna order more :D",
-      image: AvatarImg3,
+      image: AvatarImg1,
       name: 'Kukum Chouhan',
       position: '',
       borderColor: '#4756DF',
@@ -260,16 +260,16 @@ export const testimonials = {
     {
       message:
         "From doorstep services to rentals, this application is amazing for a reader 📚. Thanks NOGOZO !!",
-      image: AvatarImg4,
+      image: AvatarImg3,
       name: 'Devanshi Jain',
       position: '',
       borderColor: '#3EC1F3',
     },
     {
       message:
-        "Purchased all my exams books from this app. Delivery was quick. I'm lucky to have connected with ur App ❤",
-      image: AvatarImg5,
-      name: 'Ayush Anchalia',
+        "Best in this category. Really beneficial for book lovers to find books from various genres that too at nominal Price",
+      image: AvatarImg4,
+      name: 'Kumar Gaurav',
       position: '',
       borderColor: '#BB7259',
     },
