@@ -19,13 +19,14 @@ const Brands = () => {
           </h2>
         </div>
 
-      <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-1'>
+      {/* <div className='container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-1'> */}
+      <div className='container mx-auto grid grid-cols-2 md:grid-cols-6 items-center justify-between space-y-1'>
         {/* brands */}
         {brands.map((item, index) => {
           // destructure item
           const { image, delay } = item;
           return (
-            <div key={index} data-aos='fade-up' data-aos-delay={delay}>
+            <div key={index} data-aos='fade-up' data-aos-delay={delay} style={{margin: 10}}>
               {/* brand img */}
               <img src={image} style={{width: 130}} alt='' />
             </div>

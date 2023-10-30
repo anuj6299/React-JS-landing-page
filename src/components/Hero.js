@@ -35,20 +35,14 @@ const Hero = () => {
               data-aos='fade-down'
               data-aos-delay='300'
             >
-              <a href='https://play.google.com/store/apps/details?id=com.nogozo.customer'>
-              <button className='btn btn-md lg:btn-lg btn-sky flex justify-center items-center lg:gap-x-2'>
-                {/* <HiOutlineDownload/>  */}
-                <img src={GooglePlayIcon} style={{width:20}} alt='' /> {btnText}
-              </button></a>
-              <a href='https://nogozo.com/books/'>
-              <button className='btn btn-md lg:btn-lg btn-blue flex justify-center items-center lg:gap-x-2'>
-                Continue on web <HiArrowRight/>
-              </button></a>
             </div>
           </div>
           {/* image */}
           <div className='flex-1' data-aos='fade-up' data-aos-delay='600' data-aos-offset='0'>
-            <img src={image} alt='' />
+            {/* <img src={image} alt='' /> */}
+            <video loop="true" autoplay="autoplay" muted>
+              <source src={image} type="video/mp4"/>
+            </video>
           </div>
         </div>
       </div>

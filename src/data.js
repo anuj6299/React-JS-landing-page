@@ -2,7 +2,7 @@
 // import LogoImg from '../src/assets/img/header/logo.svg';
 import LogoImg from '../src/assets/img/header/logo.png';
 // import HeroImg from '../src/assets/img/hero/image.svg';
-import HeroImg from '../src/assets/img/hero/image.png';
+import HeroImg from '../src/assets/img/hero/home.mp4';
 import OverviewProductImg from '../src/assets/img/overview/product.svg';
 // import FacebookImg from '../src/assets/img/overview/brands/facebook.svg';
 // import GoogleImg from '../src/assets/img/overview/brands/google.svg';
@@ -15,7 +15,7 @@ import Feature2Img from '../src/assets/img/features/startupindia.webp';
 // import Feature2Img from '../src/assets/img/features/feature2-img.svg';
 import Feature3Img from '../src/assets/img/features/startinup.webp';
 // import Feature3Img from '../src/assets/img/features/feature3-img.svg';
-import Feature4Img from '../src/assets/img/features/index.jpg';
+import Feature4Img from '../src/assets/img/features/index.webp';
 import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
 import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
@@ -40,11 +40,11 @@ import Paytm from '../src/assets/img/overview/brands/paytm.svg';
 // import Icici from '../src/assets/img/overview/brands/ICICI_Bank_Logo.svg';
 import Shiprocket from '../src/assets/img/overview/brands/shiprocket.svg';
 import Delhivery from '../src/assets/img/overview/brands/delhivery.svg';
-import Icici from '../src/assets/img/overview/brands/icici.png';
-import Startinup from '../src/assets/img/overview/brands/aboutnogozo1.png';
-import Dpiit from '../src/assets/img/overview/brands/aboutnogozo2.png';
-import Startupindia from '../src/assets/img/overview/brands/aboutnogozo3.png';
-import Sharktank from '../src/assets/img/overview/brands/aboutnogozo4.png';
+import Icici from '../src/assets/img/overview/brands/icici2.png';
+import Startinup from '../src/assets/img/overview/brands/aboutnogozo1.webp';
+import Dpiit from '../src/assets/img/overview/brands/aboutnogozo2.webp';
+import Startupindia from '../src/assets/img/overview/brands/aboutnogozo3.webp';
+import Sharktank from '../src/assets/img/overview/brands/sti.png';
 import Dainik from '../src/assets/img/overview/brands/dainik.png';
 import Ecelliitbhu from '../src/assets/img/overview/brands/ecell.webp';
 
@@ -103,11 +103,11 @@ export const overview = {
   patnerstext: "Our Partners",
   partners: [
     {
-      image: Paytm,
-      delay: 100,
+      image: Icici,
+      delay: 300,
     },
     {
-      image: Icici,
+      image: Paytm,
       delay: 400,
     },
     {
@@ -231,7 +231,7 @@ export const pricing = {
 };
 
 export const testimonials = {
-  title: "Check out some reviews of our lovely users -",
+  title: "Reviews from our lovely users",
   clients: [
     {
       message:
