@@ -2,13 +2,13 @@ import React from 'react';
 // import data
 import { hero } from '../data';
 // import icons
-import { HiArrowRight } from 'react-icons/hi';
+// import { HiArrowRight } from 'react-icons/hi';
 // import ArrowRightImg from '../assets/img/features/arrow-right.svg';
-import GooglePlayIcon from '../assets/img/copyright/googleplay.svg';
+// import GooglePlayIcon from '../assets/img/copyright/googleplay.svg';
 
 const Hero = () => {
   // destructure hero data
-  const { title, subtitle, btnText, image } = hero;
+  const { title, subtitle, image } = hero;
   return (
     <section className='min-h-[850px]'>
       <div className='container mx-auto min-h-[850px] flex justify-center items-center'>
